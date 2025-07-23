@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "103812151569",
+    "project_id": "tukutaneeventapp",
+    "storage_bucket": "tukutaneeventapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103812151569:android:0b1a931a59f1ff0c81f4b0",
+        "android_client_info": {
+          "package_name": "com.tukutaneeventapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATB3MJOBOGoUctGRseWRWVhJdQO7YuOlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
