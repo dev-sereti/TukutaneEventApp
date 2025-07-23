@@ -18,16 +18,16 @@ export class CalendarUtils {
         url: event.url || '',
       };
 
-      // Use different approaches for iOS and Android
+     
       if (Platform.OS === 'ios') {
-        // For iOS, we can use the native calendar API
+ 
         const eventId = await AddCalendarEvent.presentEventCreatingDialog(eventConfig);
         
         if (eventId) {
           Alert.alert('Success', 'Event added to calendar successfully!');
         }
       } else {
-        // For Android, present the event dialog
+       
         AddCalendarEvent.presentEventCreatingDialog(eventConfig)
           .then((eventInfo) => {
             if (eventInfo.action === 'SAVED') {
@@ -47,8 +47,8 @@ export class CalendarUtils {
 
   /**
    * Formats date for display
-   * @param {Date} date - Date object
-   * @returns {string} Formatted date string
+   * @param {Date} date
+   * @returns {string} 
    */
   static formatDate(date) {
     return date.toLocaleDateString('en-US', {
