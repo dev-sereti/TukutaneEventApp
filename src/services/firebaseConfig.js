@@ -13,7 +13,7 @@ export class FirebaseService {
       const events = eventsCollection.docs.map(doc => ({
         id: doc.id,
         ...doc.data(),
-        // Convert Firestore timestamp to JavaScript Date
+        
         date: doc.data().date?.toDate() || new Date(),
       }));
       
