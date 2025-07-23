@@ -4,7 +4,7 @@ import firestore from '@react-native-firebase/firestore';
 export class FirebaseService {
   /**
    * Fetches all events from Firestore
-   * @returns {Promise<Array>} 
+   * @returns {Promise<Array>} Array of event objects
    */
   static async fetchEvents() {
     try {
